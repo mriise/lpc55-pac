@@ -1,19 +1,20 @@
 #[doc = r"Register block"]
 #[repr(C)]
 pub struct RegisterBlock {
-    #[doc = "0x00 - Security Attribution Unit Control Register"]
+    _reserved0: [u8; 0xd0],
+    #[doc = "0xd0 - Security Attribution Unit Control Register"]
     pub ctrl: crate::Reg<ctrl::CTRL_SPEC>,
-    #[doc = "0x04 - Security Attribution Unit Type Register"]
+    #[doc = "0xd4 - Security Attribution Unit Type Register"]
     pub type_: crate::Reg<type_::TYPE_SPEC>,
-    #[doc = "0x08 - Security Attribution Unit Region Number Register"]
+    #[doc = "0xd8 - Security Attribution Unit Region Number Register"]
     pub rnr: crate::Reg<rnr::RNR_SPEC>,
-    #[doc = "0x0c - Security Attribution Unit Region Base Address Register"]
+    #[doc = "0xdc - Security Attribution Unit Region Base Address Register"]
     pub rbar: crate::Reg<rbar::RBAR_SPEC>,
-    #[doc = "0x10 - Security Attribution Unit Region Limit Address Register"]
+    #[doc = "0xe0 - Security Attribution Unit Region Limit Address Register"]
     pub rlar: crate::Reg<rlar::RLAR_SPEC>,
-    #[doc = "0x14 - Secure Fault Status Register"]
+    #[doc = "0xe4 - Secure Fault Status Register"]
     pub sfsr: crate::Reg<sfsr::SFSR_SPEC>,
-    #[doc = "0x18 - Secure Fault Address Register"]
+    #[doc = "0xe8 - Secure Fault Address Register"]
     pub sfar: crate::Reg<sfar::SFAR_SPEC>,
 }
 #[doc = "CTRL register accessor: an alias for `Reg<CTRL_SPEC>`"]

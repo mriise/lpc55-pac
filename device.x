@@ -25,7 +25,6 @@ PROVIDE(ACMP = DefaultHandler);
 PROVIDE(USB0_NEEDCLK = DefaultHandler);
 PROVIDE(USB0 = DefaultHandler);
 PROVIDE(RTC = DefaultHandler);
-PROVIDE(MAILBOX = DefaultHandler);
 PROVIDE(PIN_INT4 = DefaultHandler);
 PROVIDE(PIN_INT5 = DefaultHandler);
 PROVIDE(PIN_INT6 = DefaultHandler);
@@ -45,7 +44,6 @@ PROVIDE(SEC_VIO = DefaultHandler);
 PROVIDE(HASHCRYPT = DefaultHandler);
 PROVIDE(CASER = DefaultHandler);
 PROVIDE(PUF = DefaultHandler);
-PROVIDE(PQ = DefaultHandler);
 PROVIDE(DMA1 = DefaultHandler);
 PROVIDE(FLEXCOMM8 = DefaultHandler);
 

@@ -1,6 +1,6 @@
 YAML = lpc55.yaml
-SVD = lpc55.svd.patched
-PACK_VERSION = 13.0.0
+SVD = lpc55.svd
+PACK_VERSION = 13.1.0
 
 
 # this make target runs under svdtools, ensure it works at all times.
@@ -31,13 +31,13 @@ generate:
 	cargo fmt
 
 show-latest-pack:
-	@echo $(shell wget -O - -qq https://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.pidx|grep LPC55S69|python -c'import sys; print(sys.stdin.read().rsplit("version=\"", 1)[1].split("\"", 1)[0])')
+	@echo $(shell wget -O - -qq https://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.pidx|grep LPC55S69|python3 -c'import sys; print(sys.stdin.read().rsplit("version=\"", 1)[1].split("\"", 1)[0])')
 
-PACK := NXP.LPC55S69_DFP.$(PACK_VERSION).pack
+PACK := NXP.LPC55S28_DFP.$(PACK_VERSION).pack
 fetch-svd:
-	wget -qqO- https://mcuxpresso.nxp.com/cmsis_pack/repo/$(PACK) | bsdtar -xf- LPC55S69_cm33_core0.xml
-	mv LPC55S69_cm33_core0.xml svd/pack-$(PACK_VERSION)-LPC55S69_cm33_core0.xml
-	ln -sf svd/pack-$(PACK_VERSION)-LPC55S69_cm33_core0.xml lpc55.svd
+	wget -qqO- https://mcuxpresso.nxp.com/cmsis_pack/repo/$(PACK) | bsdtar -xf- LPC55S28.xml
+	mv LPC55S28.xml svd/pack-$(PACK_VERSION)-LPC55S28.xml
+	ln -sf svd/pack-$(PACK_VERSION)-LPC55S28.xml lpc55.svd
 
 # External documentation
 fetch-docs:

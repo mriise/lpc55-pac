@@ -7,7 +7,8 @@ impl core::ops::Deref for R {
         &self.0
     }
 }
-impl core::convert::From<crate::R<CV_SPEC>> for R {
+impl From<crate::R<CV_SPEC>> for R {
+    #[inline(always)]
     fn from(reader: crate::R<CV_SPEC>) -> Self {
         R(reader)
     }
@@ -27,7 +28,8 @@ impl core::ops::DerefMut for W {
         &mut self.0
     }
 }
-impl core::convert::From<crate::W<CV_SPEC>> for W {
+impl From<crate::W<CV_SPEC>> for W {
+    #[inline(always)]
     fn from(writer: crate::W<CV_SPEC>) -> Self {
         W(writer)
     }
@@ -108,6 +110,7 @@ impl W {
         CVH_W { w: self }
     }
     #[doc = "Writes raw bits to the register."]
+    #[inline(always)]
     pub unsafe fn bits(&mut self, bits: u32) -> &mut Self {
         self.0.bits(bits);
         self
