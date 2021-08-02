@@ -1197,34 +1197,6 @@ impl core::fmt::Debug for DMA1 {
         f.debug_struct("DMA1").finish()
     }
 }
-#[doc = "USB 2.0 Device Controller"]
-pub struct USB0 {
-    _marker: PhantomData<*const ()>,
-}
-unsafe impl Send for USB0 {}
-impl USB0 {
-    #[doc = r"Pointer to the register block"]
-    pub const PTR: *const usb0::RegisterBlock = 0x4008_4000 as *const _;
-    #[doc = r"Return the pointer to the register block"]
-    #[inline(always)]
-    pub const fn ptr() -> *const usb0::RegisterBlock {
-        Self::PTR
-    }
-}
-impl Deref for USB0 {
-    type Target = usb0::RegisterBlock;
-    #[inline(always)]
-    fn deref(&self) -> &Self::Target {
-        unsafe { &*Self::PTR }
-    }
-}
-impl core::fmt::Debug for USB0 {
-    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
-        f.debug_struct("USB0").finish()
-    }
-}
-#[doc = "USB 2.0 Device Controller"]
-pub mod usb0;
 #[doc = "SCTimer/PWM (SCT)"]
 pub struct SCT0 {
     _marker: PhantomData<*const ()>,
@@ -2384,33 +2356,33 @@ impl core::fmt::Debug for GPIO {
 #[doc = "General Purpose I/O (GPIO)"]
 pub mod gpio;
 #[doc = "USB1 High-speed Device Controller"]
-pub struct USBHSD {
+pub struct USB1 {
     _marker: PhantomData<*const ()>,
 }
-unsafe impl Send for USBHSD {}
-impl USBHSD {
+unsafe impl Send for USB1 {}
+impl USB1 {
     #[doc = r"Pointer to the register block"]
-    pub const PTR: *const usbhsd::RegisterBlock = 0x4009_4000 as *const _;
+    pub const PTR: *const usb1::RegisterBlock = 0x4009_4000 as *const _;
     #[doc = r"Return the pointer to the register block"]
     #[inline(always)]
-    pub const fn ptr() -> *const usbhsd::RegisterBlock {
+    pub const fn ptr() -> *const usb1::RegisterBlock {
         Self::PTR
     }
 }
-impl Deref for USBHSD {
-    type Target = usbhsd::RegisterBlock;
+impl Deref for USB1 {
+    type Target = usb1::RegisterBlock;
     #[inline(always)]
     fn deref(&self) -> &Self::Target {
         unsafe { &*Self::PTR }
     }
 }
-impl core::fmt::Debug for USBHSD {
+impl core::fmt::Debug for USB1 {
     fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
-        f.debug_struct("USBHSD").finish()
+        f.debug_struct("USB1").finish()
     }
 }
 #[doc = "USB1 High-speed Device Controller"]
-pub mod usbhsd;
+pub mod usb1;
 #[doc = "CRC engine"]
 pub struct CRC_ENGINE {
     _marker: PhantomData<*const ()>,
@@ -2747,6 +2719,60 @@ impl core::fmt::Debug for SAU {
 }
 #[doc = "no description available"]
 pub mod sau;
+#[doc = "USB1 High-speed Device Controller"]
+pub struct USB0 {
+    _marker: PhantomData<*const ()>,
+}
+unsafe impl Send for USB0 {}
+impl USB0 {
+    #[doc = r"Pointer to the register block"]
+    pub const PTR: *const usb1::RegisterBlock = 0x4008_4000 as *const _;
+    #[doc = r"Return the pointer to the register block"]
+    #[inline(always)]
+    pub const fn ptr() -> *const usb1::RegisterBlock {
+        Self::PTR
+    }
+}
+impl Deref for USB0 {
+    type Target = usb1::RegisterBlock;
+    #[inline(always)]
+    fn deref(&self) -> &Self::Target {
+        unsafe { &*Self::PTR }
+    }
+}
+impl core::fmt::Debug for USB0 {
+    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
+        f.debug_struct("USB0").finish()
+    }
+}
+#[doc = "NXP ROM patch unit. Undocumented by NXP, this peripheral is experimentally modeled following research by Oxide Computer Company: <https://oxide.computer/blog/lpc55/>."]
+pub struct RPU {
+    _marker: PhantomData<*const ()>,
+}
+unsafe impl Send for RPU {}
+impl RPU {
+    #[doc = r"Pointer to the register block"]
+    pub const PTR: *const rpu::RegisterBlock = 0x4003_e000 as *const _;
+    #[doc = r"Return the pointer to the register block"]
+    #[inline(always)]
+    pub const fn ptr() -> *const rpu::RegisterBlock {
+        Self::PTR
+    }
+}
+impl Deref for RPU {
+    type Target = rpu::RegisterBlock;
+    #[inline(always)]
+    fn deref(&self) -> &Self::Target {
+        unsafe { &*Self::PTR }
+    }
+}
+impl core::fmt::Debug for RPU {
+    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
+        f.debug_struct("RPU").finish()
+    }
+}
+#[doc = "NXP ROM patch unit. Undocumented by NXP, this peripheral is experimentally modeled following research by Oxide Computer Company: <https://oxide.computer/blog/lpc55/>."]
+pub mod rpu;
 #[no_mangle]
 static mut DEVICE_PERIPHERALS: bool = false;
 #[doc = r"All the peripherals"]
@@ -2818,8 +2844,6 @@ pub struct Peripherals {
     pub DMA0: DMA0,
     #[doc = "DMA1"]
     pub DMA1: DMA1,
-    #[doc = "USB0"]
-    pub USB0: USB0,
     #[doc = "SCT0"]
     pub SCT0: SCT0,
     #[doc = "FLEXCOMM0"]
@@ -2908,8 +2932,8 @@ pub struct Peripherals {
     pub USART7: USART7,
     #[doc = "GPIO"]
     pub GPIO: GPIO,
-    #[doc = "USBHSD"]
-    pub USBHSD: USBHSD,
+    #[doc = "USB1"]
+    pub USB1: USB1,
     #[doc = "CRC_ENGINE"]
     pub CRC_ENGINE: CRC_ENGINE,
     #[doc = "SDIF"]
@@ -2934,6 +2958,10 @@ pub struct Peripherals {
     pub SCNSCB: SCNSCB,
     #[doc = "SAU"]
     pub SAU: SAU,
+    #[doc = "USB0"]
+    pub USB0: USB0,
+    #[doc = "RPU"]
+    pub RPU: RPU,
 }
 impl Peripherals {
     #[doc = r"Returns all the peripherals *once*"]
@@ -3049,9 +3077,6 @@ impl Peripherals {
                 _marker: PhantomData,
             },
             DMA1: DMA1 {
-                _marker: PhantomData,
-            },
-            USB0: USB0 {
                 _marker: PhantomData,
             },
             SCT0: SCT0 {
@@ -3186,7 +3211,7 @@ impl Peripherals {
             GPIO: GPIO {
                 _marker: PhantomData,
             },
-            USBHSD: USBHSD {
+            USB1: USB1 {
                 _marker: PhantomData,
             },
             CRC_ENGINE: CRC_ENGINE {
@@ -3223,6 +3248,12 @@ impl Peripherals {
                 _marker: PhantomData,
             },
             SAU: SAU {
+                _marker: PhantomData,
+            },
+            USB0: USB0 {
+                _marker: PhantomData,
+            },
+            RPU: RPU {
                 _marker: PhantomData,
             },
         }

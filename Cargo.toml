@@ -26,7 +26,7 @@ targets = []
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-cortex-m = "0.7.2"
+cortex-m = "0.7"
 cortex-m-rt = { version = "0.6.13", optional = true }
 vcell = "0.1.2"
 

@@ -1,5 +1,5 @@
 YAML = lpc55.yaml
-SVD = lpc55.svd
+SVD = lpc55.svd.patched
 PACK_VERSION = 13.1.0
 
 

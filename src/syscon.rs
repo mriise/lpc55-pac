@@ -17,9 +17,12 @@ pub struct RegisterBlock {
     #[doc = "0x48 - NMI Source Select"]
     pub nmisrc: crate::Reg<nmisrc::NMISRC_SPEC>,
     _reserved6: [u8; 0xb4],
-    _reserved_6_presetctrl: [u8; 0x04],
-    _reserved_7_presetctrl: [u8; 0x04],
-    _reserved_8_presetctrl: [u8; 0x04],
+    #[doc = "0x100 - Peripheral reset control 0"]
+    pub presetctrl_presetctrl0: crate::Reg<presetctrl_presetctrl0::PRESETCTRL_PRESETCTRL0_SPEC>,
+    #[doc = "0x104 - Peripheral reset control 1"]
+    pub presetctrl_presetctrl1: crate::Reg<presetctrl_presetctrl1::PRESETCTRL_PRESETCTRL1_SPEC>,
+    #[doc = "0x108 - Peripheral reset control 2"]
+    pub presetctrl_presetctrl2: crate::Reg<presetctrl_presetctrl2::PRESETCTRL_PRESETCTRL2_SPEC>,
     _reserved9: [u8; 0x14],
     #[doc = "0x120..0x12c - Peripheral reset control set register"]
     pub presetctrlset: [crate::Reg<presetctrlset::PRESETCTRLSET_SPEC>; 3],
@@ -30,9 +33,12 @@ pub struct RegisterBlock {
     #[doc = "0x160 - generate a software_reset"]
     pub swr_reset: crate::Reg<swr_reset::SWR_RESET_SPEC>,
     _reserved12: [u8; 0x9c],
-    _reserved_12_ahbclkctrl: [u8; 0x04],
-    _reserved_13_ahbclkctrl: [u8; 0x04],
-    _reserved_14_ahbclkctrl: [u8; 0x04],
+    #[doc = "0x200 - AHB Clock control 0"]
+    pub ahbclkctrl_ahbclkctrl0: crate::Reg<ahbclkctrl_ahbclkctrl0::AHBCLKCTRL_AHBCLKCTRL0_SPEC>,
+    #[doc = "0x204 - AHB Clock control 1"]
+    pub ahbclkctrl_ahbclkctrl1: crate::Reg<ahbclkctrl_ahbclkctrl1::AHBCLKCTRL_AHBCLKCTRL1_SPEC>,
+    #[doc = "0x208 - AHB Clock control 2"]
+    pub ahbclkctrl_ahbclkctrl2: crate::Reg<ahbclkctrl_ahbclkctrl2::AHBCLKCTRL_AHBCLKCTRL2_SPEC>,
     _reserved15: [u8; 0x14],
     #[doc = "0x220..0x22c - Peripheral reset control register"]
     pub ahbclkctrlset: [crate::Reg<ahbclkctrlset::AHBCLKCTRLSET_SPEC>; 3],
@@ -213,126 +219,6 @@ pub struct RegisterBlock {
     pub dieid: crate::Reg<dieid::DIEID_SPEC>,
 }
 impl RegisterBlock {
-    #[doc = "0x100 - Peripheral reset control register"]
-    #[inline(always)]
-    pub fn presetctrl_presetctrlx0(
-        &self,
-    ) -> &crate::Reg<presetctrl_presetctrlx0::PRESETCTRL_PRESETCTRLX0_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(256usize)
-                as *const crate::Reg<presetctrl_presetctrlx0::PRESETCTRL_PRESETCTRLX0_SPEC>)
-        }
-    }
-    #[doc = "0x100 - Peripheral reset control 0"]
-    #[inline(always)]
-    pub fn presetctrl_presetctrl0(
-        &self,
-    ) -> &crate::Reg<presetctrl_presetctrl0::PRESETCTRL_PRESETCTRL0_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(256usize)
-                as *const crate::Reg<presetctrl_presetctrl0::PRESETCTRL_PRESETCTRL0_SPEC>)
-        }
-    }
-    #[doc = "0x104 - Peripheral reset control register"]
-    #[inline(always)]
-    pub fn presetctrl_presetctrlx1(
-        &self,
-    ) -> &crate::Reg<presetctrl_presetctrlx1::PRESETCTRL_PRESETCTRLX1_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(260usize)
-                as *const crate::Reg<presetctrl_presetctrlx1::PRESETCTRL_PRESETCTRLX1_SPEC>)
-        }
-    }
-    #[doc = "0x104 - Peripheral reset control 1"]
-    #[inline(always)]
-    pub fn presetctrl_presetctrl1(
-        &self,
-    ) -> &crate::Reg<presetctrl_presetctrl1::PRESETCTRL_PRESETCTRL1_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(260usize)
-                as *const crate::Reg<presetctrl_presetctrl1::PRESETCTRL_PRESETCTRL1_SPEC>)
-        }
-    }
-    #[doc = "0x108 - Peripheral reset control register"]
-    #[inline(always)]
-    pub fn presetctrl_presetctrlx2(
-        &self,
-    ) -> &crate::Reg<presetctrl_presetctrlx2::PRESETCTRL_PRESETCTRLX2_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(264usize)
-                as *const crate::Reg<presetctrl_presetctrlx2::PRESETCTRL_PRESETCTRLX2_SPEC>)
-        }
-    }
-    #[doc = "0x108 - Peripheral reset control 2"]
-    #[inline(always)]
-    pub fn presetctrl_presetctrl2(
-        &self,
-    ) -> &crate::Reg<presetctrl_presetctrl2::PRESETCTRL_PRESETCTRL2_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(264usize)
-                as *const crate::Reg<presetctrl_presetctrl2::PRESETCTRL_PRESETCTRL2_SPEC>)
-        }
-    }
-    #[doc = "0x200 - Peripheral reset control register"]
-    #[inline(always)]
-    pub fn ahbclkctrl_ahbclkctrlx0(
-        &self,
-    ) -> &crate::Reg<ahbclkctrl_ahbclkctrlx0::AHBCLKCTRL_AHBCLKCTRLX0_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(512usize)
-                as *const crate::Reg<ahbclkctrl_ahbclkctrlx0::AHBCLKCTRL_AHBCLKCTRLX0_SPEC>)
-        }
-    }
-    #[doc = "0x200 - AHB Clock control 0"]
-    #[inline(always)]
-    pub fn ahbclkctrl_ahbclkctrl0(
-        &self,
-    ) -> &crate::Reg<ahbclkctrl_ahbclkctrl0::AHBCLKCTRL_AHBCLKCTRL0_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(512usize)
-                as *const crate::Reg<ahbclkctrl_ahbclkctrl0::AHBCLKCTRL_AHBCLKCTRL0_SPEC>)
-        }
-    }
-    #[doc = "0x204 - Peripheral reset control register"]
-    #[inline(always)]
-    pub fn ahbclkctrl_ahbclkctrlx1(
-        &self,
-    ) -> &crate::Reg<ahbclkctrl_ahbclkctrlx1::AHBCLKCTRL_AHBCLKCTRLX1_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(516usize)
-                as *const crate::Reg<ahbclkctrl_ahbclkctrlx1::AHBCLKCTRL_AHBCLKCTRLX1_SPEC>)
-        }
-    }
-    #[doc = "0x204 - AHB Clock control 1"]
-    #[inline(always)]
-    pub fn ahbclkctrl_ahbclkctrl1(
-        &self,
-    ) -> &crate::Reg<ahbclkctrl_ahbclkctrl1::AHBCLKCTRL_AHBCLKCTRL1_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(516usize)
-                as *const crate::Reg<ahbclkctrl_ahbclkctrl1::AHBCLKCTRL_AHBCLKCTRL1_SPEC>)
-        }
-    }
-    #[doc = "0x208 - Peripheral reset control register"]
-    #[inline(always)]
-    pub fn ahbclkctrl_ahbclkctrlx2(
-        &self,
-    ) -> &crate::Reg<ahbclkctrl_ahbclkctrlx2::AHBCLKCTRL_AHBCLKCTRLX2_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(520usize)
-                as *const crate::Reg<ahbclkctrl_ahbclkctrlx2::AHBCLKCTRL_AHBCLKCTRLX2_SPEC>)
-        }
-    }
-    #[doc = "0x208 - AHB Clock control 2"]
-    #[inline(always)]
-    pub fn ahbclkctrl_ahbclkctrl2(
-        &self,
-    ) -> &crate::Reg<ahbclkctrl_ahbclkctrl2::AHBCLKCTRL_AHBCLKCTRL2_SPEC> {
-        unsafe {
-            &*(((self as *const Self) as *const u8).add(520usize)
-                as *const crate::Reg<ahbclkctrl_ahbclkctrl2::AHBCLKCTRL_AHBCLKCTRL2_SPEC>)
-        }
-    }
     #[doc = "0x260 - Peripheral reset control register"]
     #[inline(always)]
     pub fn systickclksel_systickclkselx0(
@@ -790,29 +676,14 @@ pub mod nmisrc;
 pub type PRESETCTRL_PRESETCTRL0 = crate::Reg<presetctrl_presetctrl0::PRESETCTRL_PRESETCTRL0_SPEC>;
 #[doc = "Peripheral reset control 0"]
 pub mod presetctrl_presetctrl0;
-#[doc = "PRESETCTRL_PRESETCTRLX0 register accessor: an alias for `Reg<PRESETCTRL_PRESETCTRLX0_SPEC>`"]
-pub type PRESETCTRL_PRESETCTRLX0 =
-    crate::Reg<presetctrl_presetctrlx0::PRESETCTRL_PRESETCTRLX0_SPEC>;
-#[doc = "Peripheral reset control register"]
-pub mod presetctrl_presetctrlx0;
 #[doc = "PRESETCTRL_PRESETCTRL1 register accessor: an alias for `Reg<PRESETCTRL_PRESETCTRL1_SPEC>`"]
 pub type PRESETCTRL_PRESETCTRL1 = crate::Reg<presetctrl_presetctrl1::PRESETCTRL_PRESETCTRL1_SPEC>;
 #[doc = "Peripheral reset control 1"]
 pub mod presetctrl_presetctrl1;
-#[doc = "PRESETCTRL_PRESETCTRLX1 register accessor: an alias for `Reg<PRESETCTRL_PRESETCTRLX1_SPEC>`"]
-pub type PRESETCTRL_PRESETCTRLX1 =
-    crate::Reg<presetctrl_presetctrlx1::PRESETCTRL_PRESETCTRLX1_SPEC>;
-#[doc = "Peripheral reset control register"]
-pub mod presetctrl_presetctrlx1;
 #[doc = "PRESETCTRL_PRESETCTRL2 register accessor: an alias for `Reg<PRESETCTRL_PRESETCTRL2_SPEC>`"]
 pub type PRESETCTRL_PRESETCTRL2 = crate::Reg<presetctrl_presetctrl2::PRESETCTRL_PRESETCTRL2_SPEC>;
 #[doc = "Peripheral reset control 2"]
 pub mod presetctrl_presetctrl2;
-#[doc = "PRESETCTRL_PRESETCTRLX2 register accessor: an alias for `Reg<PRESETCTRL_PRESETCTRLX2_SPEC>`"]
-pub type PRESETCTRL_PRESETCTRLX2 =
-    crate::Reg<presetctrl_presetctrlx2::PRESETCTRL_PRESETCTRLX2_SPEC>;
-#[doc = "Peripheral reset control register"]
-pub mod presetctrl_presetctrlx2;
 #[doc = "PRESETCTRLSET register accessor: an alias for `Reg<PRESETCTRLSET_SPEC>`"]
 pub type PRESETCTRLSET = crate::Reg<presetctrlset::PRESETCTRLSET_SPEC>;
 #[doc = "Peripheral reset control set register"]
@@ -829,29 +700,14 @@ pub mod swr_reset;
 pub type AHBCLKCTRL_AHBCLKCTRL0 = crate::Reg<ahbclkctrl_ahbclkctrl0::AHBCLKCTRL_AHBCLKCTRL0_SPEC>;
 #[doc = "AHB Clock control 0"]
 pub mod ahbclkctrl_ahbclkctrl0;
-#[doc = "AHBCLKCTRL_AHBCLKCTRLX0 register accessor: an alias for `Reg<AHBCLKCTRL_AHBCLKCTRLX0_SPEC>`"]
-pub type AHBCLKCTRL_AHBCLKCTRLX0 =
-    crate::Reg<ahbclkctrl_ahbclkctrlx0::AHBCLKCTRL_AHBCLKCTRLX0_SPEC>;
-#[doc = "Peripheral reset control register"]
-pub mod ahbclkctrl_ahbclkctrlx0;
 #[doc = "AHBCLKCTRL_AHBCLKCTRL1 register accessor: an alias for `Reg<AHBCLKCTRL_AHBCLKCTRL1_SPEC>`"]
 pub type AHBCLKCTRL_AHBCLKCTRL1 = crate::Reg<ahbclkctrl_ahbclkctrl1::AHBCLKCTRL_AHBCLKCTRL1_SPEC>;
 #[doc = "AHB Clock control 1"]
 pub mod ahbclkctrl_ahbclkctrl1;
-#[doc = "AHBCLKCTRL_AHBCLKCTRLX1 register accessor: an alias for `Reg<AHBCLKCTRL_AHBCLKCTRLX1_SPEC>`"]
-pub type AHBCLKCTRL_AHBCLKCTRLX1 =
-    crate::Reg<ahbclkctrl_ahbclkctrlx1::AHBCLKCTRL_AHBCLKCTRLX1_SPEC>;
-#[doc = "Peripheral reset control register"]
-pub mod ahbclkctrl_ahbclkctrlx1;
 #[doc = "AHBCLKCTRL_AHBCLKCTRL2 register accessor: an alias for `Reg<AHBCLKCTRL_AHBCLKCTRL2_SPEC>`"]
 pub type AHBCLKCTRL_AHBCLKCTRL2 = crate::Reg<ahbclkctrl_ahbclkctrl2::AHBCLKCTRL_AHBCLKCTRL2_SPEC>;
 #[doc = "AHB Clock control 2"]
 pub mod ahbclkctrl_ahbclkctrl2;
-#[doc = "AHBCLKCTRL_AHBCLKCTRLX2 register accessor: an alias for `Reg<AHBCLKCTRL_AHBCLKCTRLX2_SPEC>`"]
-pub type AHBCLKCTRL_AHBCLKCTRLX2 =
-    crate::Reg<ahbclkctrl_ahbclkctrlx2::AHBCLKCTRL_AHBCLKCTRLX2_SPEC>;
-#[doc = "Peripheral reset control register"]
-pub mod ahbclkctrl_ahbclkctrlx2;
 #[doc = "AHBCLKCTRLSET register accessor: an alias for `Reg<AHBCLKCTRLSET_SPEC>`"]
 pub type AHBCLKCTRLSET = crate::Reg<ahbclkctrlset::AHBCLKCTRLSET_SPEC>;
 #[doc = "Peripheral reset control register"]

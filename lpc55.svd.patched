@@ -1,10 +1,10 @@
 <device xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.3" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
   <vendor>nxp.com</vendor>
-  <name>LPC55S69_cm33_core0</name>
+  <name>LPC55S28</name>
   <version>1.0</version>
-  <description>LPC55S69JBD100,LPC55S69JBD64,LPC55S69JEV98</description>
+  <description>LPC55S28JBD100,LPC55S28JBD64,LPC55S28JEV98</description>
   <licenseText>
-Copyright 2016-2020 NXP
+Copyright 2016-2021 NXP
 All rights reserved.
 
 SPDX-License-Identifier: BSD-3-Clause
@@ -650,6 +650,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x30</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -668,6 +669,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_HEADER0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x30</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -686,6 +688,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x34</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -704,6 +707,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_HEADER1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x34</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -736,6 +740,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x38</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -754,6 +759,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x38</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -772,6 +778,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x3C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -790,6 +797,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x3C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -808,6 +816,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x40</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -826,6 +835,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x40</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -844,6 +854,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x44</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -862,6 +873,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x44</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -880,6 +892,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x48</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -898,6 +911,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x48</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -916,6 +930,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x4C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -934,6 +949,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x4C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -952,6 +968,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x50</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -970,6 +987,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x50</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -988,6 +1006,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1006,6 +1025,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1024,6 +1044,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x58</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1042,6 +1063,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x58</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1060,6 +1082,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x5C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1078,6 +1101,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x5C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1096,6 +1120,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x60</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1114,6 +1139,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE12</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x60</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1132,6 +1158,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_BODY11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x64</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1150,6 +1177,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_IV_CODE13</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x64</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1168,6 +1196,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x68</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1186,6 +1215,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_HEADER0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x68</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1204,6 +1234,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x6C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1222,6 +1253,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_HEADER1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x6C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1254,6 +1286,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x70</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1272,6 +1305,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x70</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1290,6 +1324,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x74</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1308,6 +1343,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x74</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1326,6 +1362,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x78</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1344,6 +1381,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x78</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1362,6 +1400,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x7C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1380,6 +1419,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x7C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1398,6 +1438,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x80</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1416,6 +1457,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x80</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1434,6 +1476,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x84</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1452,6 +1495,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x84</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1470,6 +1514,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x88</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1488,6 +1533,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x88</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1506,6 +1552,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x8C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1524,6 +1571,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x8C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1542,6 +1590,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x90</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1560,6 +1609,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x90</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1578,6 +1628,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x94</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1596,6 +1647,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x94</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1614,6 +1666,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x98</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1632,6 +1685,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE12</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x98</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1650,6 +1704,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_BODY11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x9C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1668,6 +1723,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_IV_CODE13</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x9C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1686,6 +1742,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1704,6 +1761,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_HEADER0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1722,6 +1780,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1740,6 +1799,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_HEADER1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1772,6 +1832,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1790,6 +1851,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1808,6 +1870,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xAC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1826,6 +1889,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xAC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1844,6 +1908,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1862,6 +1927,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1880,6 +1946,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1898,6 +1965,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1916,6 +1984,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1934,6 +2003,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1952,6 +2022,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xBC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1970,6 +2041,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xBC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -1988,6 +2060,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2006,6 +2079,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2024,6 +2098,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2042,6 +2117,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2060,6 +2136,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2078,6 +2155,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2096,6 +2174,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2114,6 +2193,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2132,6 +2212,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2150,6 +2231,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE12</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2168,6 +2250,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_BODY11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2186,6 +2269,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_IV_CODE13</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3266,6 +3350,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_HEADER0</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4B0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3284,6 +3369,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE0</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4B0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3302,6 +3388,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_HEADER1</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4B4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3334,6 +3421,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE1</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4B4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3352,6 +3440,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY0</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4B8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3370,6 +3459,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE2</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4B8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3388,6 +3478,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY1</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4BC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3406,6 +3497,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE3</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4BC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3424,6 +3516,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY2</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3442,6 +3535,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE4</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3460,6 +3554,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY3</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4C4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3478,6 +3573,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE5</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4C4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3496,6 +3592,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY4</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4C8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3514,6 +3611,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE6</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4C8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3532,6 +3630,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY5</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4CC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3550,6 +3649,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE7</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4CC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3568,6 +3668,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY6</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4D0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3586,6 +3687,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE8</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4D0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3604,6 +3706,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY7</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4D4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3622,6 +3725,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE9</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4D4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3640,6 +3744,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY8</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4D8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3658,6 +3763,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE10</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4D8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3676,6 +3782,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY9</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4DC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3694,6 +3801,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE11</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4DC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3712,6 +3820,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY10</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4E0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3730,6 +3839,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE12</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4E0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3748,6 +3858,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_BODY11</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4E4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3766,6 +3877,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SBKEY_KEY_CODE13</name>
           <description>.</description>
+          <alternateGroup>SBKEY_KEY_CODE</alternateGroup>
           <addressOffset>0x4E4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3784,6 +3896,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_HEADER0</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4E8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3802,6 +3915,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE0</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4E8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3820,6 +3934,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_HEADER1</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4EC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3852,6 +3967,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE1</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4EC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3870,6 +3986,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY0</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4F0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3888,6 +4005,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE2</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4F0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3906,6 +4024,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY1</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4F4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3924,6 +4043,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE3</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4F4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3942,6 +4062,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY2</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4F8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3960,6 +4081,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE4</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4F8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3978,6 +4100,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY3</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4FC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3996,6 +4119,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE5</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x4FC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4014,6 +4138,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY4</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x500</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4032,6 +4157,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE6</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x500</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4050,6 +4176,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY5</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x504</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4068,6 +4195,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE7</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x504</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4086,6 +4214,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY6</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x508</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4104,6 +4233,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE8</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x508</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4122,6 +4252,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY7</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x50C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4140,6 +4271,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE9</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x50C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4158,6 +4290,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY8</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x510</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4176,6 +4309,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE10</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x510</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4194,6 +4328,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY9</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x514</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4212,6 +4347,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE11</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x514</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4230,6 +4366,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY10</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x518</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4248,6 +4385,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE12</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x518</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4266,6 +4404,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_BODY11</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x51C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4284,6 +4423,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>USER_KEK_KEY_CODE13</name>
           <description>.</description>
+          <alternateGroup>USER_KEK_KEY_CODE</alternateGroup>
           <addressOffset>0x51C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4302,6 +4442,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_HEADER0</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x520</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4320,6 +4461,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE0</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x520</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4338,6 +4480,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_HEADER1</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x524</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4370,6 +4513,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE1</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x524</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4388,6 +4532,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY0</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x528</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4406,6 +4551,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE2</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x528</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4424,6 +4570,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY1</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x52C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4442,6 +4589,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE3</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x52C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4460,6 +4608,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY2</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x530</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4478,6 +4627,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE4</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x530</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4496,6 +4646,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY3</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x534</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4514,6 +4665,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE5</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x534</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4532,6 +4684,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY4</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x538</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4550,6 +4703,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE6</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x538</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4568,6 +4722,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY5</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x53C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4586,6 +4741,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE7</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x53C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4604,6 +4760,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY6</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x540</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4622,6 +4779,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE8</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x540</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4640,6 +4798,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY7</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x544</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4658,6 +4817,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE9</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x544</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4676,6 +4836,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY8</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x548</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4694,6 +4855,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE10</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x548</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4712,6 +4874,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY9</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x54C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4730,6 +4893,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE11</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x54C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4748,6 +4912,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY10</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x550</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4766,6 +4931,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE12</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x550</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4784,6 +4950,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_BODY11</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x554</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4802,6 +4969,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>UDS_KEY_CODE13</name>
           <description>.</description>
+          <alternateGroup>UDS_KEY_CODE</alternateGroup>
           <addressOffset>0x554</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4820,6 +4988,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_HEADER0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x558</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4838,6 +5007,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x558</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4856,6 +5026,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_HEADER1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x55C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4888,6 +5059,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x55C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4906,6 +5078,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x560</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4924,6 +5097,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x560</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4942,6 +5116,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x564</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4960,6 +5135,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x564</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4978,6 +5154,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x568</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -4996,6 +5173,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x568</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5014,6 +5192,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x56C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5032,6 +5211,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x56C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5050,6 +5230,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x570</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5068,6 +5249,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x570</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5086,6 +5268,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x574</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5104,6 +5287,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x574</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5122,6 +5306,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x578</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5140,6 +5325,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x578</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5158,6 +5344,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x57C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5176,6 +5363,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x57C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5194,6 +5382,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x580</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5212,6 +5401,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x580</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5230,6 +5420,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x584</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5248,6 +5439,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x584</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5266,6 +5458,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x588</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5284,6 +5477,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE12</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x588</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5302,6 +5496,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_BODY11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x58C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5320,6 +5515,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION0_KEY_CODE13</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION0_KEY_CODE</alternateGroup>
           <addressOffset>0x58C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5338,6 +5534,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_HEADER0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x590</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5356,6 +5553,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x590</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5374,6 +5572,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_HEADER1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x594</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5406,6 +5605,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x594</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5424,6 +5624,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x598</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5442,6 +5643,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x598</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5460,6 +5662,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x59C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5478,6 +5681,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x59C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5496,6 +5700,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5A0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5514,6 +5719,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5A0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5532,6 +5738,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5A4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5550,6 +5757,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5A4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5568,6 +5776,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5A8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5586,6 +5795,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5A8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5604,6 +5814,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5AC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5622,6 +5833,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5AC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5640,6 +5852,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5B0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5658,6 +5871,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5B0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5676,6 +5890,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5B4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5694,6 +5909,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5B4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5712,6 +5928,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5B8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5730,6 +5947,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5B8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5748,6 +5966,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5BC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5766,6 +5985,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5BC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5784,6 +6004,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5802,6 +6023,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE12</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5820,6 +6042,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_BODY11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5C4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5838,6 +6061,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION1_KEY_CODE13</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION1_KEY_CODE</alternateGroup>
           <addressOffset>0x5C4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5856,6 +6080,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_HEADER0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5C8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5874,6 +6099,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5C8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5892,6 +6118,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_HEADER1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5CC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5924,6 +6151,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5CC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5942,6 +6170,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY0</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5D0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5960,6 +6189,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5D0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5978,6 +6208,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY1</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5D4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -5996,6 +6227,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5D4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6014,6 +6246,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY2</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5D8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6032,6 +6265,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5D8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6050,6 +6284,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY3</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5DC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6068,6 +6303,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5DC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6086,6 +6322,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY4</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5E0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6104,6 +6341,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5E0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6122,6 +6360,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY5</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5E4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6140,6 +6379,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5E4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6158,6 +6398,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY6</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5E8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6176,6 +6417,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5E8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6194,6 +6436,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY7</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5EC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6212,6 +6455,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5EC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6230,6 +6474,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY8</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5F0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6248,6 +6493,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5F0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6266,6 +6512,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY9</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5F4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6284,6 +6531,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5F4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6302,6 +6550,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY10</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5F8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6320,6 +6569,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE12</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5F8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6338,6 +6588,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_BODY11</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5FC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6356,6 +6607,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRINCE_REGION2_KEY_CODE13</name>
           <description>.</description>
+          <alternateGroup>PRINCE_REGION2_KEY_CODE</alternateGroup>
           <addressOffset>0x5FC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -6650,6 +6902,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRESETCTRL0</name>
           <description>Peripheral reset control 0</description>
+          <alternateGroup>PRESETCTRL</alternateGroup>
           <addressOffset>0x100</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -7060,6 +7313,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRESETCTRL1</name>
           <description>Peripheral reset control 1</description>
+          <alternateGroup>PRESETCTRL</alternateGroup>
           <addressOffset>0x104</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -7394,6 +7648,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>PRESETCTRL2</name>
           <description>Peripheral reset control 2</description>
+          <alternateGroup>PRESETCTRL</alternateGroup>
           <addressOffset>0x108</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -7912,6 +8167,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>AHBCLKCTRL0</name>
           <description>AHB Clock control 0</description>
+          <alternateGroup>AHBCLKCTRL</alternateGroup>
           <addressOffset>0x200</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -8322,6 +8578,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>AHBCLKCTRL1</name>
           <description>AHB Clock control 1</description>
+          <alternateGroup>AHBCLKCTRL</alternateGroup>
           <addressOffset>0x204</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -8637,6 +8894,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>AHBCLKCTRL2</name>
           <description>AHB Clock control 2</description>
+          <alternateGroup>AHBCLKCTRL</alternateGroup>
           <addressOffset>0x208</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9125,6 +9383,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SYSTICKCLKSEL0</name>
           <description>System Tick Timer for CPU0 source select</description>
+          <alternateGroup>SYSTICKCLKSEL</alternateGroup>
           <addressOffset>0x260</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9185,85 +9444,8 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SYSTICKCLKSELX0</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>SYSTICKCLKSEL</alternateGroup>
           <addressOffset>0x260</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>DATA</name>
-              <description>Data array value</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SYSTICKCLKSEL1</name>
-          <description>System Tick Timer for CPU1 source select</description>
-          <addressOffset>0x264</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x7</resetValue>
-          <resetMask>0x7</resetMask>
-          <fields>
-            <field>
-              <name>SEL</name>
-              <description>System Tick Timer for CPU1 source select.</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>3</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ENUM_0x0</name>
-                  <description>System Tick 1 divided clock.</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x1</name>
-                  <description>FRO 1MHz clock.</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x2</name>
-                  <description>Oscillator 32 kHz clock.</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x3</name>
-                  <description>No clock.</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x4</name>
-                  <description>No clock.</description>
-                  <value>0x4</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x5</name>
-                  <description>No clock.</description>
-                  <value>0x5</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x6</name>
-                  <description>No clock.</description>
-                  <value>0x6</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENUM_0x7</name>
-                  <description>No clock.</description>
-                  <value>0x7</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SYSTICKCLKSELX1</name>
-          <description>Peripheral reset control register</description>
-          <addressOffset>0x264</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -9341,6 +9523,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSEL0</name>
           <description>CTimer 0 clock source select</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x26C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9401,6 +9584,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSELX0</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x26C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9419,6 +9603,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSEL1</name>
           <description>CTimer 1 clock source select</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x270</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9479,6 +9664,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSELX1</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x270</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9497,6 +9683,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSEL2</name>
           <description>CTimer 2 clock source select</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x274</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9557,6 +9744,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSELX2</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x274</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9575,6 +9763,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSEL3</name>
           <description>CTimer 3 clock source select</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x278</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9635,6 +9824,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSELX3</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x278</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9653,6 +9843,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSEL4</name>
           <description>CTimer 4 clock source select</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x27C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -9713,6 +9904,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CTIMERCLKSELX4</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>CTIMERCLKSEL</alternateGroup>
           <addressOffset>0x27C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10064,6 +10256,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL0</name>
           <description>Flexcomm Interface 0 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2B0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10124,6 +10317,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX0</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2B0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10142,6 +10336,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL1</name>
           <description>Flexcomm Interface 1 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2B4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10202,6 +10397,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX1</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2B4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10220,6 +10416,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL2</name>
           <description>Flexcomm Interface 2 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2B8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10280,6 +10477,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX2</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2B8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10298,6 +10496,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL3</name>
           <description>Flexcomm Interface 3 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2BC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10358,6 +10557,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX3</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2BC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10376,6 +10576,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL4</name>
           <description>Flexcomm Interface 4 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10436,6 +10637,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX4</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10454,6 +10656,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL5</name>
           <description>Flexcomm Interface 5 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2C4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10514,6 +10717,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX5</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2C4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10532,6 +10736,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL6</name>
           <description>Flexcomm Interface 6 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2C8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10592,6 +10797,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX6</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2C8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10610,6 +10816,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSEL7</name>
           <description>Flexcomm Interface 7 clock source select for Fractional Rate Divider</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2CC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10670,6 +10877,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FCCLKSELX7</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FCCLKSEL</alternateGroup>
           <addressOffset>0x2CC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11143,6 +11351,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG0CTRL</name>
           <description>Fractional rate divider for flexcomm 0</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x320</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11168,6 +11377,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL0</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x320</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11186,6 +11396,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG1CTRL</name>
           <description>Fractional rate divider for flexcomm 1</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x324</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11211,6 +11422,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL1</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x324</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11229,6 +11441,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG2CTRL</name>
           <description>Fractional rate divider for flexcomm 2</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x328</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11254,6 +11467,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL2</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x328</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11272,6 +11486,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG3CTRL</name>
           <description>Fractional rate divider for flexcomm 3</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x32C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11297,6 +11512,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL3</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x32C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11315,6 +11531,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG4CTRL</name>
           <description>Fractional rate divider for flexcomm 4</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x330</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11340,6 +11557,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL4</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x330</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11358,6 +11576,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG5CTRL</name>
           <description>Fractional rate divider for flexcomm 5</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x334</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11383,6 +11602,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL5</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x334</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11401,6 +11621,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG6CTRL</name>
           <description>Fractional rate divider for flexcomm 6</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x338</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11426,6 +11647,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL6</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x338</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11444,6 +11666,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRG7CTRL</name>
           <description>Fractional rate divider for flexcomm 7</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x33C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -11469,6 +11692,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>FLEXFRGXCTRL7</name>
           <description>Peripheral reset control register</description>
+          <alternateGroup>FLEXFRGCTRL</alternateGroup>
           <addressOffset>0x33C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -12805,7 +13029,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>SDIO CCLKIN phase and delay control</description>
           <addressOffset>0x460</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0x9F9F008F</resetMask>
           <fields>
@@ -12814,7 +13038,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Programmable delay value by which cclk_in_drv is phase-shifted with regard to cclk_in.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>2</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>ENUM_0_DEG</name>
@@ -12843,7 +13067,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Programmable delay value by which cclk_in_sample is delayed with regard to cclk_in.</description>
               <bitOffset>2</bitOffset>
               <bitWidth>2</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>ENUM_0_DEG</name>
@@ -12872,7 +13096,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Enables the delays CCLK_DRV_PHASE and CCLK_SAMPLE_PHASE.</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>BYPASSED</name>
@@ -12891,14 +13115,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Programmable delay value by which cclk_in_drv is delayed with regard to cclk_in.</description>
               <bitOffset>16</bitOffset>
               <bitWidth>5</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>CCLK_DRV_DELAY_ACTIVE</name>
               <description>Enables drive delay, as controlled by the CCLK_DRV_DELAY field.</description>
               <bitOffset>23</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>DISABLE</name>
@@ -12917,14 +13141,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Programmable delay value by which cclk_in_sample is delayed with regard to cclk_in.</description>
               <bitOffset>24</bitOffset>
               <bitWidth>5</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>CCLK_SAMPLE_DELAY_ACTIVE</name>
               <description>Enables sample delay, as controlled by the CCLK_SAMPLE_DELAY field.</description>
               <bitOffset>31</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>DISABLE</name>
@@ -14793,36 +15017,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CPUCFG</name>
-          <description>CPUs configuration register</description>
-          <addressOffset>0xFD4</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x2</resetValue>
-          <resetMask>0x7</resetMask>
-          <fields>
-            <field>
-              <name>CPU1ENABLE</name>
-              <description>Enable CPU1.</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>CPU1 is disable (Processor in reset).</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>CPU1 is enable.</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
             </field>
           </fields>
         </register>
@@ -41784,6 +41978,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP0</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x100</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41809,6 +42004,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH0</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x100</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41834,6 +42030,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP1</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x104</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41859,6 +42056,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH1</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x104</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41884,6 +42082,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP2</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x108</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41909,6 +42108,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH2</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x108</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41934,6 +42134,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP3</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x10C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41959,6 +42160,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH3</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x10C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -41984,6 +42186,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP4</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x110</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42009,6 +42212,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH4</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x110</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42034,6 +42238,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP5</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x114</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42059,6 +42264,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH5</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x114</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42084,6 +42290,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP6</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x118</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42109,6 +42316,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH6</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x118</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42134,6 +42342,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP7</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x11C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42159,6 +42368,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH7</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x11C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42184,6 +42394,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP8</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x120</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42209,6 +42420,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH8</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x120</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42234,6 +42446,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP9</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x124</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42259,6 +42472,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH9</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x124</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42284,6 +42498,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP10</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x128</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42309,6 +42524,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH10</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x128</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42334,6 +42550,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP11</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x12C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42359,6 +42576,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH11</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x12C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42384,6 +42602,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP12</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x130</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42409,6 +42628,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH12</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x130</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42434,6 +42654,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP13</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x134</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42459,6 +42680,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH13</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x134</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42484,6 +42706,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP14</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x138</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42509,6 +42732,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH14</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x138</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42534,6 +42758,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAP15</name>
           <description>SCT capture register of capture channel</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x13C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42559,6 +42784,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCH15</name>
           <description>SCT match value register of match channels</description>
+          <alternateGroup>CAP_MATCH</alternateGroup>
           <addressOffset>0x13C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42584,6 +42810,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL0</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x200</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42609,6 +42836,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL0</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x200</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42634,6 +42862,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL1</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x204</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42659,6 +42888,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL1</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x204</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42684,6 +42914,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL2</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x208</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42709,6 +42940,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL2</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x208</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42734,6 +42966,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL3</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x20C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42759,6 +42992,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL3</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x20C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42784,6 +43018,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL4</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x210</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42809,6 +43044,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL4</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x210</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42834,6 +43070,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL5</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x214</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42859,6 +43096,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL5</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x214</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42884,6 +43122,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL6</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x218</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42909,6 +43148,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL6</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x218</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42934,6 +43174,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL7</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x21C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42959,6 +43200,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL7</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x21C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -42984,6 +43226,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL8</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x220</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43009,6 +43252,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL8</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x220</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43034,6 +43278,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL9</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x224</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43059,6 +43304,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL9</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x224</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43084,6 +43330,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL10</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x228</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43109,6 +43356,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL10</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x228</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43134,6 +43382,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL11</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x22C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43159,6 +43408,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL11</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x22C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43184,6 +43434,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL12</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x230</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43209,6 +43460,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL12</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x230</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43234,6 +43486,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL13</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x234</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43259,6 +43512,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL13</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x234</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43284,6 +43538,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL14</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x238</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43309,6 +43564,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL14</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x238</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43334,6 +43590,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>CAPCTRL15</name>
           <description>SCT capture control register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x23C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -43359,6 +43616,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>MATCHREL15</name>
           <description>SCT match reload value register</description>
+          <alternateGroup>CAPCTRL_MATCHREL</alternateGroup>
           <addressOffset>0x23C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -47460,7 +47718,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>FIFO write data.</description>
           <addressOffset>0xE20</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -49205,7 +49463,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>FIFO write data.</description>
           <addressOffset>0xE20</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -49448,102 +49706,6 @@ SPDX-License-Identifier: BSD-3-Clause
         <name>FLEXCOMM7</name>
         <value>21</value>
       </interrupt>
-    </peripheral>
-    <peripheral>
-      <name>MAILBOX</name>
-      <description>Mailbox</description>
-      <groupName>MAILBOX</groupName>
-      <baseAddress>0x4008B000</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0xFC</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <interrupt>
-        <name>MAILBOX</name>
-        <value>31</value>
-      </interrupt>
-      <registers>
-        <cluster>
-          <dim>2</dim>
-          <dimIncrement>0x10</dimIncrement>
-          <name>MBOXIRQ[%s]</name>
-          <description>no description available</description>
-          <addressOffset>0</addressOffset>
-          <register>
-            <name>IRQ</name>
-            <description>Interrupt request register for the Cortex-M0+ CPU.</description>
-            <addressOffset>0</addressOffset>
-            <size>32</size>
-            <access>read-write</access>
-            <resetValue>0</resetValue>
-            <resetMask>0xFFFFFFFF</resetMask>
-            <fields>
-              <field>
-                <name>INTREQ</name>
-                <description>If any bit is set, an interrupt request is sent to the Cortex-M0+ interrupt controller.</description>
-                <bitOffset>0</bitOffset>
-                <bitWidth>32</bitWidth>
-                <access>read-write</access>
-              </field>
-            </fields>
-          </register>
-          <register>
-            <name>IRQSET</name>
-            <description>Set bits in IRQ0</description>
-            <addressOffset>0x4</addressOffset>
-            <size>32</size>
-            <access>write-only</access>
-            <resetValue>0</resetValue>
-            <resetMask>0</resetMask>
-            <fields>
-              <field>
-                <name>INTREQSET</name>
-                <description>Writing 1 sets the corresponding bit in the IRQ0 register.</description>
-                <bitOffset>0</bitOffset>
-                <bitWidth>32</bitWidth>
-                <access>write-only</access>
-              </field>
-            </fields>
-          </register>
-          <register>
-            <name>IRQCLR</name>
-            <description>Clear bits in IRQ0</description>
-            <addressOffset>0x8</addressOffset>
-            <size>32</size>
-            <access>write-only</access>
-            <resetValue>0</resetValue>
-            <resetMask>0</resetMask>
-            <fields>
-              <field>
-                <name>INTREQCLR</name>
-                <description>Writing 1 clears the corresponding bit in the IRQ0 register.</description>
-                <bitOffset>0</bitOffset>
-                <bitWidth>32</bitWidth>
-                <access>write-only</access>
-              </field>
-            </fields>
-          </register>
-        </cluster>
-        <register>
-          <name>MUTEX</name>
-          <description>Mutual exclusion register[1]</description>
-          <addressOffset>0xF8</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x1</resetValue>
-          <resetMask>0x1</resetMask>
-          <fields>
-            <field>
-              <name>EX</name>
-              <description>Cleared when read, set when written. See usage description above.</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-      </registers>
     </peripheral>
     <peripheral>
       <name>GPIO</name>
@@ -50401,6 +50563,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SUM</name>
           <description>CRC checksum register</description>
+          <alternateGroup>SUM_WR_DATA</alternateGroup>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
           <access>read-only</access>
@@ -50419,6 +50582,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>WR_DATA</name>
           <description>CRC data register</description>
+          <alternateGroup>SUM_WR_DATA</alternateGroup>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
           <access>write-only</access>
@@ -63473,612 +63637,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x73D</value>
                 </enumeratedValue>
               </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-      </registers>
-    </peripheral>
-    <peripheral>
-      <name>POWERQUAD</name>
-      <description>Digital Signal Co-Processing companion to a Cortex-M v8M CPU core</description>
-      <groupName>POWERQUAD</groupName>
-      <baseAddress>0x400A6000</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0x260</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <interrupt>
-        <name>PQ</name>
-        <value>57</value>
-      </interrupt>
-      <registers>
-        <register>
-          <name>OUTBASE</name>
-          <description>Base address register for output region</description>
-          <addressOffset>0</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>outbase</name>
-              <description>Base address register for the output region</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>OUTFORMAT</name>
-          <description>Output format</description>
-          <addressOffset>0x4</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFF33</resetMask>
-          <fields>
-            <field>
-              <name>out_formatint</name>
-              <description>Output Internal format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>out_formatext</name>
-              <description>Output External format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>out_scaler</name>
-              <description>Output Scaler value (for scaled 'q31' formats)</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>8</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>TMPBASE</name>
-          <description>Base address register for temp region</description>
-          <addressOffset>0x8</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>tmpbase</name>
-              <description>Base address register for the temporary region</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>TMPFORMAT</name>
-          <description>Temp format</description>
-          <addressOffset>0xC</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFF33</resetMask>
-          <fields>
-            <field>
-              <name>tmp_formatint</name>
-              <description>Temp Internal format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>tmp_formatext</name>
-              <description>Temp External format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>tmp_scaler</name>
-              <description>Temp Scaler value (for scaled 'q31' formats)</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>8</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>INABASE</name>
-          <description>Base address register for input A region</description>
-          <addressOffset>0x10</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>inabase</name>
-              <description>Base address register for the input A region</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>INAFORMAT</name>
-          <description>Input A format</description>
-          <addressOffset>0x14</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFF33</resetMask>
-          <fields>
-            <field>
-              <name>ina_formatint</name>
-              <description>Input A Internal format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>ina_formatext</name>
-              <description>Input A External format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>ina_scaler</name>
-              <description>Input A Scaler value (for scaled 'q31' formats)</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>8</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>INBBASE</name>
-          <description>Base address register for input B region</description>
-          <addressOffset>0x18</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>inbbase</name>
-              <description>Base address register for the input B region</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>INBFORMAT</name>
-          <description>Input B format</description>
-          <addressOffset>0x1C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFF33</resetMask>
-          <fields>
-            <field>
-              <name>inb_formatint</name>
-              <description>Input B Internal format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>inb_formatext</name>
-              <description>Input B External format (00: q15; 01:q31; 10:float)</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>inb_scaler</name>
-              <description>Input B Scaler value (for scaled 'q31' formats)</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>8</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CONTROL</name>
-          <description>PowerQuad Control register</description>
-          <addressOffset>0x100</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x8000FFFF</resetMask>
-          <fields>
-            <field>
-              <name>decode_opcode</name>
-              <description>opcode specific to decode_machine</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>decode_machine</name>
-              <description>0 : Coprocessor , 1 : matrix , 2 : fft , 3 : fir , 4 : stat , 5 : cordic , 6 -15 : NA</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>inst_busy</name>
-              <description>Instruction busy signal when high indicates processing is on</description>
-              <bitOffset>31</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>LENGTH</name>
-          <description>Length register</description>
-          <addressOffset>0x104</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>inst_length</name>
-              <description>Length register. When FIR : fir_xlength = inst_length[15:0] , fir_tlength = inst_len[31:16]. When MTX : rows_a = inst_length[4:0] , cols_a = inst_length[12:8] , cols_b = inst_length[20:16]</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CPPRE</name>
-          <description>Pre-scale register</description>
-          <addressOffset>0x108</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x3FFFF</resetMask>
-          <fields>
-            <field>
-              <name>cppre_in</name>
-              <description>co-processor scaling of input</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>8</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>cppre_out</name>
-              <description>co-processor fixed point output</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>8</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>cppre_sat</name>
-              <description>1 : forces sub-32 bit saturation</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>cppre_sat8</name>
-              <description>0 = 8bits, 1 = 16bits</description>
-              <bitOffset>17</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MISC</name>
-          <description>Misc register</description>
-          <addressOffset>0x10C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>inst_misc</name>
-              <description>Misc register. For Matrix : Used for scale factor</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CURSORY</name>
-          <description>Cursory register</description>
-          <addressOffset>0x110</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x1</resetMask>
-          <fields>
-            <field>
-              <name>cursory</name>
-              <description>1 : Enable cursory mode</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CORDIC_X</name>
-          <description>Cordic input X register</description>
-          <addressOffset>0x180</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>cordic_x</name>
-              <description>Cordic input x</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CORDIC_Y</name>
-          <description>Cordic input Y register</description>
-          <addressOffset>0x184</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>cordic_y</name>
-              <description>Cordic input y</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>CORDIC_Z</name>
-          <description>Cordic input Z register</description>
-          <addressOffset>0x188</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>cordic_z</name>
-              <description>Cordic input z</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>ERRSTAT</name>
-          <description>Read/Write register where error statuses are captured (sticky)</description>
-          <addressOffset>0x18C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x1F</resetMask>
-          <fields>
-            <field>
-              <name>OVERFLOW</name>
-              <description>overflow</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>NAN</name>
-              <description>nan</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>FIXEDOVERFLOW</name>
-              <description>fixed_pt_overflow</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>UNDERFLOW</name>
-              <description>underflow</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>BUSERROR</name>
-              <description>bus_error</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>INTREN</name>
-          <description>INTERRUPT enable register</description>
-          <addressOffset>0x190</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x7F</resetMask>
-          <fields>
-            <field>
-              <name>intr_oflow</name>
-              <description>1 : Enable interrupt on Floating point overflow</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>intr_nan</name>
-              <description>1 : Enable interrupt on Floating point NaN</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>intr_fixed</name>
-              <description>1: Enable interrupt on Fixed point Overflow</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>intr_uflow</name>
-              <description>1 : Enable interrupt on Subnormal truncation</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>intr_berr</name>
-              <description>1: Enable interrupt on AHBM Buss Error</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>intr_comp</name>
-              <description>1: Enable interrupt on instruction completion</description>
-              <bitOffset>7</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>EVENTEN</name>
-          <description>Event Enable register</description>
-          <addressOffset>0x194</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>event_oflow</name>
-              <description>1 : Enable event trigger on Floating point overflow</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>event_nan</name>
-              <description>1 : Enable event trigger on Floating point NaN</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>event_fixed</name>
-              <description>1: Enable event trigger on Fixed point Overflow</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>event_uflow</name>
-              <description>1 : Enable event trigger on Subnormal truncation</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>event_berr</name>
-              <description>1: Enable event trigger on AHBM Buss Error</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>event_comp</name>
-              <description>1: Enable event trigger on instruction completion</description>
-              <bitOffset>7</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>INTRSTAT</name>
-          <description>INTERRUPT STATUS register</description>
-          <addressOffset>0x198</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x1</resetMask>
-          <fields>
-            <field>
-              <name>intr_stat</name>
-              <description>Intr status ( 1 bit to indicate interrupt captured, 0 means no new interrupt), write any value will clear this bit</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <dim>16</dim>
-          <dimIncrement>0x4</dimIncrement>
-          <name>gpreg[%s]</name>
-          <description>General purpose register bank N.</description>
-          <addressOffset>0x200</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0x7CF73</resetMask>
-          <fields>
-            <field>
-              <name>gpreg</name>
-              <description>General purpose register bank</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <dim>8</dim>
-          <dimIncrement>0x4</dimIncrement>
-          <name>compreg[%s]</name>
-          <description>Compute register bank</description>
-          <addressOffset>0x240</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>compreg</name>
-              <description>Compute register bank</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
             </field>
           </fields>
         </register>
@@ -79943,7 +79501,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Software Trigger Interrupt Register</description>
           <addressOffset>0xE00</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>

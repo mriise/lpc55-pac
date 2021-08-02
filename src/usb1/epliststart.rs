@@ -34,63 +34,44 @@ impl From<crate::W<EPLISTSTART_SPEC>> for W {
         W(writer)
     }
 }
-#[doc = "Field `EP_LIST_PRG` reader - Programmable portion of the USB EP Command/Status List address."]
-pub struct EP_LIST_PRG_R(crate::FieldReader<u16, u16>);
-impl EP_LIST_PRG_R {
-    pub(crate) fn new(bits: u16) -> Self {
-        EP_LIST_PRG_R(crate::FieldReader::new(bits))
+#[doc = "Field `EP_LIST` reader - Programmable portion of the USB EP command/status list address. The upper 12 bits should be 0x401."]
+pub struct EP_LIST_R(crate::FieldReader<u32, u32>);
+impl EP_LIST_R {
+    pub(crate) fn new(bits: u32) -> Self {
+        EP_LIST_R(crate::FieldReader::new(bits))
     }
 }
-impl core::ops::Deref for EP_LIST_PRG_R {
-    type Target = crate::FieldReader<u16, u16>;
+impl core::ops::Deref for EP_LIST_R {
+    type Target = crate::FieldReader<u32, u32>;
     #[inline(always)]
     fn deref(&self) -> &Self::Target {
         &self.0
     }
 }
-#[doc = "Field `EP_LIST_PRG` writer - Programmable portion of the USB EP Command/Status List address."]
-pub struct EP_LIST_PRG_W<'a> {
+#[doc = "Field `EP_LIST` writer - Programmable portion of the USB EP command/status list address. The upper 12 bits should be 0x401."]
+pub struct EP_LIST_W<'a> {
     w: &'a mut W,
 }
-impl<'a> EP_LIST_PRG_W<'a> {
+impl<'a> EP_LIST_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
-    pub unsafe fn bits(self, value: u16) -> &'a mut W {
-        self.w.bits = (self.w.bits & !(0x0fff << 8)) | ((value as u32 & 0x0fff) << 8);
+    pub unsafe fn bits(self, value: u32) -> &'a mut W {
+        self.w.bits = (self.w.bits & !(0x00ff_ffff << 8)) | ((value as u32 & 0x00ff_ffff) << 8);
         self.w
     }
 }
-#[doc = "Field `EP_LIST_FIXED` reader - Fixed portion of USB EP Command/Status List address."]
-pub struct EP_LIST_FIXED_R(crate::FieldReader<u16, u16>);
-impl EP_LIST_FIXED_R {
-    pub(crate) fn new(bits: u16) -> Self {
-        EP_LIST_FIXED_R(crate::FieldReader::new(bits))
-    }
-}
-impl core::ops::Deref for EP_LIST_FIXED_R {
-    type Target = crate::FieldReader<u16, u16>;
-    #[inline(always)]
-    fn deref(&self) -> &Self::Target {
-        &self.0
-    }
-}
 impl R {
-    #[doc = "Bits 8:19 - Programmable portion of the USB EP Command/Status List address."]
+    #[doc = "Bits 8:31 - Programmable portion of the USB EP command/status list address. The upper 12 bits should be 0x401."]
     #[inline(always)]
-    pub fn ep_list_prg(&self) -> EP_LIST_PRG_R {
-        EP_LIST_PRG_R::new(((self.bits >> 8) & 0x0fff) as u16)
-    }
-    #[doc = "Bits 20:31 - Fixed portion of USB EP Command/Status List address."]
-    #[inline(always)]
-    pub fn ep_list_fixed(&self) -> EP_LIST_FIXED_R {
-        EP_LIST_FIXED_R::new(((self.bits >> 20) & 0x0fff) as u16)
+    pub fn ep_list(&self) -> EP_LIST_R {
+        EP_LIST_R::new(((self.bits >> 8) & 0x00ff_ffff) as u32)
     }
 }
 impl W {
-    #[doc = "Bits 8:19 - Programmable portion of the USB EP Command/Status List address."]
+    #[doc = "Bits 8:31 - Programmable portion of the USB EP command/status list address. The upper 12 bits should be 0x401."]
     #[inline(always)]
-    pub fn ep_list_prg(&mut self) -> EP_LIST_PRG_W {
-        EP_LIST_PRG_W { w: self }
+    pub fn ep_list(&mut self) -> EP_LIST_W {
+        EP_LIST_W { w: self }
     }
     #[doc = "Writes raw bits to the register."]
     #[inline(always)]
